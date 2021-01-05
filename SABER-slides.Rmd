@@ -55,6 +55,9 @@ class: left, middle, bg_munich
 <br>
 `r emo::ji("hatching_chick")` .medium-font[Very first project in BER]]
 
+.pull-bottom[
+Link to slide deck: http://ledelaney.org/talks/sabertalk/SABER-slides.html]
+
 ???
 real quick: my name is lucy, i'm a phd candidate in evolutionary biology. i'm going to fly through this today: but, more materials online (these slides and some resources), so plz feel free to reach out!
 
