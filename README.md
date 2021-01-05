@@ -5,7 +5,7 @@
 
 ### Images
 
-All images [found here]().
+Most images [found here]().
 
 + [Cherry Blossom (1887–1897) by Ogawa Kazumasa](https://www.rawpixel.com/image/523356/free-illustration-image-sakura-cherry-blossom-ogawa-kazumasa)
 + [Landscape of Kragerø (1912) by Edvard Munch](https://www.rawpixel.com/image/2043769/landscape-kragero)
