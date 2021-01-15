@@ -11,6 +11,10 @@
  font-size: 18px
 }
 
+.mezzo-forte-font {
+ font-size: 27px
+}
+
 .large-font {
  font-size: 45px
 }
@@ -33,6 +37,19 @@ position: relative;
 top: 110px;
 color: #8c8c8c
 }
+
+.pull-low {
+position: relative;
+top: 200px;
+line-height: normal;
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+
+}
+
 
 .pull-left-narrow {
   float: left;
@@ -69,6 +86,48 @@ color: #8c8c8c
       opacity: 0.7;
       z-index: -1;
 }
+
+
+.bg_fish {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_fish::before {    
+      content: "";
+      background-image: url('images/bg/moluccas-marine-life.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #A2ABB4;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+      z-index: -1;
+}
+
+.bg_lian {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_lian::before {    
+      content: "";
+      background-image: url('images/bg/lian-flowers.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #A2ABB4;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+      z-index: -1;
+}
+
 
 
 .bg_mountain1 {
@@ -352,6 +411,45 @@ https://cdn.hipwallpaper.com/m/17/4/6ox83n.jpg*/
 }
 
 
+.bg_ideal_v2 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_ideal_v2::before {    
+      content: "";
+      background-image: url('images/figs/pre-post-causes-ideal_v2.png');
+      background-size: 55%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 60px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.bg_reality_v2 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_reality_v2::before {    
+      content: "";
+      background-image: url('images/figs/ideal-and-real-fig.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+
 .bg_ideal {
   position: relative;
   z-index: 1;
@@ -429,6 +527,10 @@ a:hover {
   line-height:        1em;
   font-family: "Charter-Racket", serif;
   color: #2b2b2b
+}
+
+.remark-slide-content ol {
+  line-height: normal;
 }
 
 /*-- HORIZONTAL BARS --*/
@@ -529,6 +631,17 @@ blockquote {
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   margin: 28px -35px 28px -35px;
+  border-left: solid 5px #000000;
+
+}
+
+.border-opaque {
+  display: block;
+  position: relative;
+  padding: 5px;
+  background: #9fd1e3;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 150px 0px 0px 200px;
   border-left: solid 5px #000000;
 
 }

@@ -4,6 +4,7 @@ subtitle: "How do students construct biological explanations?"
 author: "Lucy E Delaney"
 institute: "University of Illinois at Chicago"
 date: "`r Sys.Date()`"
+event: "SABER West, 2021"
 output:
   xaringan::moon_reader:
     seal: false
@@ -18,18 +19,23 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: right, middle, bg_cherry
-# The Four Causes of <br> Adaptation
+```{r setup, echo=FALSE}
+library(metathis)
+library(htmltools)
+```
 
-<br>
+class: right, middle, bg_cherry
+# The Four Causes of `r htmltools::withTags(br())` Adaptation
+
+`r htmltools::withTags(br())`
 
 .pull-right[
 .border[
-We do not have knowledge of a thing until we have grasped its <b>why</b>, that is to say, its <b>cause</b>.]
+We do not have knowledge of a thing until we have grasped its `r htmltools::withTags(b("why"))`, that is to say, its `r htmltools::withTags(b("cause"))`.]
 
-Aristotle, <br> _Physics: Book II_]
+Aristotle, `r htmltools::withTags(br())` _Physics: Book II_]
 
-.pull-bottom[L E Delaney · SABER West, 2021]
+.pull-bottom[`r rmarkdown::metadata$author` · `r rmarkdown::metadata$event`]
 
 ???
 hi there, i'm so glad to be here. today i'm going to talk to you about a project that i started in the Fall, examining how students think about complex questions regarding natural selection & adaptation.
@@ -39,7 +45,7 @@ class: left, middle, bg_munich
 
 .pull-left[## Lucy Delaney 
 
-<img style="border-radius: 50%;" src="http://ledelaney.org/talks/sabertalk/css/images/Delaney-Headshot-Original.jpg" width="170px"/>
+`r htmltools::withTags(img(style = "border-radius: 50%;", src = "https://ledelaney.org/talks/sabertalk/css/images/Delaney-Headshot-Original.jpg", width = "170px"))`
 
 [`r fontawesome::fa("envelope")` ldelan5@uic.edu](mailto:ldelan5@uic.edu)  
 [`r fontawesome::fa("twitter")` @emergentlyLucy](https://twitter.com/emergentlyLucy)  
@@ -48,11 +54,11 @@ class: left, middle, bg_munich
 .pull-right[## About me
 
 `r emo::ji("mortar_board")` .medium-font[PhD candidate in Evolutionary Biology]
-<br>
-<br>
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 `r emo::ji("hibiscus")` .medium-font[Studying plant sex macroevolution]
-<br>
-<br>
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 `r emo::ji("hatching_chick")` .medium-font[Very first project in BER]]
 
 .pull-bottom[
@@ -70,13 +76,13 @@ don't need to explain to this crowd how important understanding biological conce
 --
 
 ## Biology education has a problem
-<br>
-<br>
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 --
 
 🥱
-Biology is &#8220;just memorization!&#8221;
+Biology is `r htmltools::HTML("&ldquo;")`just memorization!`r htmltools::HTML("&rdquo;")`
 
 ???
 i hear this regularly from my students: often feels this way, because biology is usually presented as a string of facts, devoid of connection! each course siloed as if it's a discipline all its own
@@ -84,8 +90,7 @@ i hear this regularly from my students: often feels this way, because biology is
 --
 
 😫
-Why does this matter &mdash; &#8220;I just want to be a doctor!&#8221;
-<br>
+Why does this matter: `r htmltools::HTML("&ldquo;")`I just want to be a doctor!`r htmltools::HTML("&rdquo;")`
 
 
 ???
@@ -101,8 +106,8 @@ i think we need to be providing a better framework and a better narrative struct
 
 --
 
-<br>
-<br>
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 .center[
 .large-font[
 .pink[Evolutionary theory: help!]]]
@@ -112,56 +117,23 @@ i think we need to be providing a better framework and a better narrative struct
 the thing is, biology HAS a beautiful and compelling framework and narrative! and a lot of work over the last few decades suggests that evolution-centered teaching can help with these issues
 
 ---
-class: middle, bg_mountain1
+class: middle, center, bg_fish
 
-???
-BUT if we want to get to the summit that is understanding evolution there's a long path to traverse...
+--
 
----
-class: middle, bg_mountain2
+.border-opaque[
+Despite its centrality to understanding biological complexity and its key practical relevance to medicine, biotechnology, and agriculture, natural selection remains one of the most widely misunderstood concepts of contemporary science.]
+`r htmltools::withTags(br())`
 
-???
-first, we all need to speak the same words...
+.pull-right[
+Keleman, 2012
+`r htmltools::withTags(br())`
+`r htmltools::withTags(em("Teleological minds"))`]
 
----
-class: middle, bg_mountain3
-
-???
-then we need to use those words to understand basic individual-level biological processes like DNA replication... 
-
----
-class: middle, bg_mountain4
-
-???
-now we can begin to talk about the environment and ecology...
-
----
-class: middle, bg_mountain5
-
-???
-then, we must start thinking about randomness, probability, and timescale: what processes may yield over millions of years...
-
----
-class: middle, bg_mountain6
-
-???
-now we are about ready to bring in evolutionary mechanisms, which conceptually bring their own challenges...
-
----
-class: middle, bg_mountain7
-
-???
-we must learn to distinguish the pattern from the process that generates it...
-
----
-class: middle, bg_mountain8
-
-???
-and finally, we must distinguish levels of causality, functional and evolutionary (not mentioning correlation/causation, another talk)
-given these two final stages, i set out to answer some questions
 
 ---
 class: middle, left, bg_peacock
+
 
 --
  `r emo::ji("yarn")` How do students construct biological explanations across levels of instruction?  
@@ -180,27 +152,30 @@ coded responses based on the following framework...
 ---
 class: middle, left, bg_jelly
 
- ## Tinbergen&#39;s Four Questions
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
 
-<table>
-  <tr>
-    <td>&nbsp;</td>
-    <th>SNAPSHOT</th>
-    <th>STORY</th>
-  </tr>
-  <tr>
-    <th>PROXIMATE</th>
-    <td><span style="opacity: 0"><br><b>Material cause: </b><em>Mechanism</em><br><br>How is the trait constructed?<br><br></span></td>
-    <td><span style="opacity: 0"><br><b>Efficient cause: </b><em>Ontogeny</em><br><br>How does the trait change throughout development?</span><br><br></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE</th>
-    <td><span style="opacity: 0"><br><b>Final cause: </b><em>Adaptive value</em><br><br>How does the trait contribute to lifetime reproductive fitness in current environment?</span><br><br></td>
-    <td><span style="opacity: 0"><br><b>Formal cause: </b><em>Phylogeny</em><br><br>What is the evolutionary history of the organism and the trait?</span><br><br></td>
-  </tr>
-</table>
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
 
-.pull-bottom[
+`r htmltools::withTags(br())`
+
+--
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (functional)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+ tr(th("ULTIMATE (evolutionary)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
 .small-font[Tinbergen, 1963; Nesse, 2013]]
 
 ???
@@ -209,171 +184,170 @@ borrowed a framework created by Tinbergen and organized by Nesse used to examine
 ---
 class: middle, left, bg_jelly
 
- ## Tinbergen&#39;s Four Questions
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
 
-<table>
-  <tr>
-    <th>&nbsp;</th>
-    <th>SNAPSHOT</th>
-    <th>STORY</th>
-  </tr>
-  <tr>
-    <th>PROXIMATE</th>
-    <td><br><b>Material cause: </b><em>Mechanism</em><br><br>How is the trait constructed?<br><br></td>
-    <td><br><b>Efficient cause: </b><em>Ontogeny</em><br><br>How does the trait change throughout development?<br><br></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE</th>
-    <td><span style="opacity: 0"><br><b>Final cause: </b><em>Adaptive value</em><br><br>How does the trait contribute to lifetime reproductive fitness in current environment?</span><br><br></td>
-    <td><span style="opacity: 0"><br><b>Formal cause: </b><em>Phylogeny</em><br><br>What is the evolutionary history of the organism and the trait?</span><br><br></td>
-  </tr>
-</table>
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
 
-.pull-bottom[
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (functional)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+ tr(th("ULTIMATE (evolutionary)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
 .small-font[Tinbergen, 1963; Nesse, 2013]]
 
 ???
-proximate questions
+borrowed a framework created by Tinbergen and organized by Nesse used to examine behavioral adaptations
 
 ---
 class: middle, left, bg_jelly
 
- ## Tinbergen&#39;s Four Questions
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
 
-<table>
-  <tr>
-    <th>&nbsp;</th>
-    <th>SNAPSHOT</th>
-    <th>STORY</th>
-  </tr>
-  <tr>
-    <th>PROXIMATE</th>
-    <td><b><br>Material cause: </b><em>Mechanism</em><br><br>How is the trait constructed?<br><br></td>
-    <td><br><b>Efficient cause: </b><em>Ontogeny</em><br><br>How does the trait change throughout development?<br><br></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE</th>
-    <td><br><b>Final cause: </b><em>Adaptive value</em><br><br>How does the trait contribute to lifetime reproductive fitness in current environment?<br><br></td>
-    <td><br><b>Formal cause: </b><em>Phylogeny</em><br><br>What is the evolutionary history of the organism and the trait?<br><br></td>
-  </tr>
-</table>
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
 
-.pull-bottom[
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (functional)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+ tr(th("ULTIMATE (evolutionary)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
 .small-font[Tinbergen, 1963; Nesse, 2013]]
 
 ???
-ultimate questions
+borrowed a framework created by Tinbergen and organized by Nesse used to examine behavioral adaptations
 
 ---
 class: middle, left, bg_jelly
 
-## Response Framework
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
 
-<table>
-  <tr>
-    <th>&nbsp;</hd>
-    <th>PATTERN (static)</hd>
-    <th>PROCESS (dynamic)</hd>
-  </tr>
-  <tr>
-    <th>PROXIMATE (functional)</th>
-    <td><span style="opacity: 0"><br><b>Material cause:</b><br><br>What is it made of? <br> (e.g., DNA)<br><br></span></td>
-    <td><span style="opacity: 0"><br><b>Efficient cause:</b><br><br>What process generates what it is made of? <br> (e.g., mutation)<br><br></span></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE (evolutionary)</th>
-    <td><span style="opacity: 0"><br><b>Final cause:</b><br>What is its current adaptive value? <br><br> (e.g., protection from predators)<br><br></span></td>
-    <td><span style="opacity: 0"><br><b>What is its evolutionary history? <br><br> (e.g., environmental heterogeneity and biological tradeoffs)<br><br></span></td>
-  </tr>
-</table>
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
 
----
-class: middle, left, bg_jelly
+`r htmltools::withTags(br())`
 
-## Response Framework
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
 
-<table>
-  <tr>
-    <th>&nbsp;</th>
-    <th>PATTERN (static)</th>
-    <th>PROCESS (dynamic)</th>
-  </tr>
-  <tr>
-    <th>PROXIMATE (functional)</th>
-    <td><br><b>Material cause:</b><br><br>What is it made of? <br> (e.g., DNA)<br><br></td>
-    <td><br><b>Efficient cause:</b><br><br>What process generates what it is made of? <br> (e.g., mutation)<br><br></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE (evolutionary)</th>
-    <td><span style="opacity: 0"><br><b>Final cause:</b><br><br>What is its current adaptive value? <br> (e.g., protection from predators)<br><br></span></td>
-    <td><span style="opacity: 0"><br><b>Formal Cause:</b><br><br>What is its evolutionary history? <br> (e.g., environmental heterogeneity and biological tradeoffs)<br><br></span></td>
-  </tr>
-</table>
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (functional)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+ tr(th("ULTIMATE (evolutionary)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Tinbergen, 1963; Nesse, 2013]]
+
+???
+borrowed a framework created by Tinbergen and organized by Nesse used to examine behavioral adaptations
 
 ---
 class: middle, left, bg_jelly
 
-## Response Framework
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
 
-<table>
-  <tr>
-    <th>&nbsp;</th>
-    <th>PATTERN (static)</th>
-    <th>PROCESS (dynamic)</th>
-  </tr>
-  <tr>
-    <th>PROXIMATE (functional)</th>
-    <td><br><b>Material cause:</b><br><br>What is it made of? <br> (e.g., DNA)<br><br></td>
-    <td><br><b>Efficient cause:</b><br><br>What process generates what it is made of? <br> (e.g., mutation)<br><br></td>
-  </tr>
-  <tr>
-    <th>ULTIMATE (evolutionary)</th>
-    <td><br><b>Final cause:</b><br><br>What is its current adaptive value? <br> (e.g., protection from predators)<br><br></td>
-    <td><br><b>Formal Cause:</b><br><br>What is its evolutionary history? <br> (e.g., environmental heterogeneity and biological tradeoffs)<br><br></td>
-  </tr>
-</table>
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (functional)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+ tr(th("ULTIMATE (evolutionary)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 1", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Tinbergen, 1963; Nesse, 2013]]
+
+???
+borrowed a framework created by Tinbergen and organized by Nesse used to examine behavioral adaptations
 
 ---
-class: middle, left, bg_ideal
+class: middle, left, bg_ideal_v2
+
+.pull-right[
+We would love to see this after instruction!
+]
 
 ???
 this is what we HOPE to see after instruction....
 
 ---
-class: middle, left, bg_reality
+class: middle, left, bg_reality_v2
 
 ???
 but, this is what we actually see....
 
 ---
-class: top, left, bg_2birds
+class: middle, left, bg_lian
 
+.pull-left[
 ## Preliminary Takeaways
-
---
 
 ↪️
 Most common explanations invoke Final and/or Efficient causality (i.e., ultimate pattern or proximate process) and shift regularly around these between pre-post
-<br>
+`r htmltools::withTags(br())`
 
 ↪️
 Formal instruction is not nudging students toward Formal causality
-<br>
+`r htmltools::withTags(br())`
 
 ↪️
-Students invoking Formal causality in both assignments are more likely to have more biology credits <br> (_p-value_ = 0.06)
-<br>
-<br>
-<br>
+Students invoking Formal causality in both assignments are more likely to have more biology credits (_p-value_ = 0.06)]
 
 --
+.pull-low[
+.center[
+.mezzo-forte-font[
+🧵 Weave evolutionary theory `r htmltools::HTML("&amp;")` principles into _every_ class!]]]
+
+---
+class: middle, left, bg_2birds
+
+--
+
 ## Questions
 
-1. How best to display this data?
-
-2. Best methods for analyzing categorical data of this kind?
-
-3. Any general feedback!
+`r htmltools::withTags(ol(li("Best methods for analyzing categorical data of this kind?"), li("Any general feedback!")))`
 
 --
 .bottom[
