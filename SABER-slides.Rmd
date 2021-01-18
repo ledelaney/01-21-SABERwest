@@ -85,7 +85,7 @@ don't need to explain to this crowd how important a robust understanding of biol
 Biology is `r htmltools::HTML("&ldquo;")`just memorization!`r htmltools::HTML("&rdquo;")`
 
 ???
-one of the most common critiques from studnets i hear is this: 
+one of the most common critiques from students i hear is this: 
 it often feels this way, because biology is usually presented as a string of facts, devoid of connection! each course siloed as if it's a discipline all its own
 
 --
@@ -103,7 +103,7 @@ this suggests to me that we're not always doing a great job demonstrating the va
 Formal instruction is not always leading to robust conceptual understanding
 
 ???
-for me teaching genetics, surprising pauctiy of aha moments happening -- students are having a hard time putting the facts together and finding the bigger picture...
+for me teaching genetics, surprising paucity of aha moments happening -- students are having a hard time putting the facts together and finding the bigger picture...
 
 i think we need to be providing a better framework and a better narrative structure throughout the entire course of postsecondary study
 
@@ -135,7 +135,7 @@ biology is of course an experimental science, but it is also a historical scienc
 
 .pull-left-narrow[
 .large-font[
-🧣 🧶]]
+🥓 🐷]]
 .pull-right-wide[
 `r htmltools::withTags(br())`
 Need to distinguish pattern from generating process]
@@ -148,7 +148,7 @@ so given this, students first need to be able to distinguish a pattern from its 
 
 .pull-left-narrow[
 .large-font[
-👵 🌨️]]
+🏪 🔪]]
 .pull-right-wide[
 `r htmltools::withTags(br())`
 ️Need to evaluate both proximate and ultimate processes responsible for pattern]
@@ -156,7 +156,7 @@ so given this, students first need to be able to distinguish a pattern from its 
 ???
 BUT, not only can different processes produce the same pattern, but there are also both "proximate" (or functional) and "ultimate" (evolutionary) processes responsible for a given pattern. for instance, there's the individual that makes the scarf -- but why did they make the scarf? presumably because we have necks and those necks get cold.
 
-and research shows that in individual biology courses we spend a tremendous amount of time on the "proximate" or "functional" processes and proprotionally less time on the "ultimate" or "evolutionary" processes. this makes conceptual understanding of evolution -- and i would argue, biology in general! -- nearly impossible.
+and research shows that in individual biology courses we spend a tremendous amount of time on the "proximate" or "functional" processes and proportionally less time on the "ultimate" or "evolutionary" processes. this makes conceptual understanding of evolution -- and i would argue, biology in general! -- nearly impossible.
 
 given these two final stages of conceptual understanding -- pattern vs process and proximate vs ultimate causality -- i set out to answer some questions
 
@@ -198,16 +198,16 @@ htmltools::withTags(table(
    th("PATTERN (static)"),
    th("PROCESS (dynamic)")),
  tr(th("PROXIMATE (functional)"),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Material Cause:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Efficient Cause:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
  tr(th("ULTIMATE (evolutionary)"),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
  td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
 
 ```
 
 .footnote[
-.small-font[Tinbergen, 1963; Nesse, 2013]]
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ???
 slightly tweaked a framework originally created by Niko Tinbergen that is most commonly used to examine behavioral adaptations
@@ -230,16 +230,16 @@ htmltools::withTags(table(
    th("PATTERN (static)"),
    th("PROCESS (dynamic)")),
  tr(th("PROXIMATE (functional)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Efficient Cause:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
  tr(th("ULTIMATE (evolutionary)"),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
  td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
 
 ```
 
 .footnote[
-.small-font[Tinbergen, 1963; Nesse, 2013]]
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ???
 let's talk through the proximate/functional (or individual-level) row first:
@@ -261,16 +261,16 @@ htmltools::withTags(table(
    th("PATTERN (static)"),
    th("PROCESS (dynamic)")),
  tr(th("PROXIMATE (functional)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Efficient Cause:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
  tr(th("ULTIMATE (evolutionary)"),
-   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Final cause:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
  td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
 
 ```
 
 .footnote[
-.small-font[Tinbergen, 1963; Nesse, 2013]]
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ???
 -efficient cause is the proximate-process: DNA mutates, sexual reproduction/recombination
@@ -291,20 +291,20 @@ htmltools::withTags(table(
    th("PATTERN (static)"),
    th("PROCESS (dynamic)")),
  tr(th("PROXIMATE (functional)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Efficient Cause:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
  tr(th("ULTIMATE (evolutionary)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
  td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
 
 ```
 
 .footnote[
-.small-font[Tinbergen, 1963; Nesse, 2013]]
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ???
 now the ultimate/evolutionary (or species-level) row:
--final cause ultimate-pattern (dangerously teleological, but that's a discussion for another time): all organisms take advantage of the environment in differnet ways
+-final cause ultimate-pattern (dangerously teleological, but that's a discussion for another time): all organisms take advantage of the environment in different ways
 
 ---
 class: middle, left, bg_jelly
@@ -322,16 +322,16 @@ htmltools::withTags(table(
    th("PATTERN (static)"),
    th("PROCESS (dynamic)")),
  tr(th("PROXIMATE (functional)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "All organisms are constructed differently, have different DNA", br(), br()))),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Effiecient Cause:"), br(), br(), "DNA mutates, organisms sexually reproduce, recombiantion", br(), br())))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material Cause:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Efficient Cause:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
  tr(th("ULTIMATE (evolutionary)"),
-   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "All organisms take advantage of the environment in different ways", br(), br()))), 
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Final cause:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
  td(htmltools::withTags(span(style = "opacity: 1", br(), b("Formal cause:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
 
 ```
 
 .footnote[
-.small-font[Tinbergen, 1963; Nesse, 2013]]
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
 
 ???
 -formal cause ultimate-process (THE ANSWER WE WANT!): environmental heterogeneity + biological tradeoffs over large timescales
@@ -364,7 +364,7 @@ class: middle, left, bg_lian
 ## Preliminary Takeaways
 
 ↪️
-Most common explanations invoke Final and/or Efficient causality (i.e., ultimate pattern or proximate process) and shift regularly around these between pre-post
+Most common explanations invoke Final and/or Efficient causality (i.e., ultimate-pattern or proximate-process) and shift regularly around these between pre-post
 `r htmltools::withTags(br())`
 
 ↪️
