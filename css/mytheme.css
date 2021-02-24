@@ -16,7 +16,7 @@
 }
 
 .large-font {
- font-size: 45px
+ font-size: 45px;
 }
 
 /*-- Spacing --*/
@@ -35,7 +35,7 @@
 .pull-bottom {
 position: relative;
 top: 110px;
-color: #8c8c8c
+color: #8c8c8c;
 }
 
 .pull-low {
