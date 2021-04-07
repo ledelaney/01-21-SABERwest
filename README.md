@@ -1,6 +1,8 @@
 ## Resources for SABER West 2021 Roundtable
 
-+ [Link to full slide deck](http://ledelaney.org/talks/sabertalk/SABER-slides.html#1)
+<img src="https://ledelaney.org/talks/saberw2021/css/images/01-2021-SABER-card.png" />
+
++ [Link to full slide deck](http://ledelaney.org/talks/saberw2021/)
 + See above `references.pdf` for more reading on various topics
 
 ### Images
